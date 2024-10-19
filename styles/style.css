@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&family=Marcellus+SC&display=swap');
+
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: #FFFFFF;
+    --cor-tercearia: #FF6500;
+    --cor-hover: #272727;
+
+    --fonte-primaria: "Lexend Mega", sans-serif;
+    --fonte-secundaria: "Marcellus SC", serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+}
+
+.cabecalho{
+    padding: 1% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.cabecalho__logo {
+    width: 40%;
+}
+
+.cabecalho__menu {
+    display: flex;
+    gap: 110px;
+}
+
+.cabecalho__menu__link {
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--cor-tercearia);
+}
+
+.cabecalho__menu__link__alternativo {
+    font-family: var(--fonte-secundaria);
+    font-size: 25px;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.apresentacao {
+    padding: 4% 7%;
+    align-items: center;
+}
+
+.apresentacao__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 38px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.conteudo__strong {
+    font-weight: 500;
+    color: var(--cor-tercearia);
+}
+
+.apresentacao__conteudo {
+    padding: 3% 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 45px;
+    align-items: center;
+}
+
+.apresentacao__conteudo__div{
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao__conteudo__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 24px;
+    text-align: justify;
+}
+
+.apresentacao__conteudo__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 30px;
+    text-align: justify;
+}
+
+.apresentacao__redes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    padding: 53px 0 0 0;
+}
+
+.apresentacao__redes__link {
+    width: 212px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    border-radius: 8px;
+    border: 2px solid var(--cor-tercearia);
+    padding: 21.5px 0;
+    text-align: center;
+    text-decoration: none;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
+    font-weight: 400;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.apresentacao__redes__link__img {
+    width: 50px;
+}
+.apresentacao__redes__link:hover{
+    background-color: #272727;
+}
+
+.apresentacao__imagem {
+    width: 396px;
+    height: 390px;
+}
+
+.rodape {
+    color: var(--cor-secundaria);
+    background-color: var(--cor-tercearia);
+    padding: 1.5%;
+    text-align: center;
+    font-family: var(--fonte-primaria);
+    font-size: 17px;
+    font-weight: 300;
+}
+
+.about {
+    padding: 5% 14%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+.about__conteudo {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+}
+
+.about__conteudo__titulo {
+    font-size: 36px;
+    font-family: var(--fonte-primaria);
+    padding-bottom: 25px ;
+}
+
+.about__conteudo__texto {
+    font-family: var(--fonte-secundaria);
+    font-size: 21px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+.about__imagem{
+    width: 400px;
+}
+
+.about__frase {
+    display: flex;
+    align-items: center;
+    padding: 0 16% 4% 16%;
+}
+
+.about__frase__primaria {
+    font-family:  var(--fonte-primaria);
+    color: #FF6500;
+    text-align: center;
+}
+
+.curriculo {
+    padding: 5% 14%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.curriculo__principal {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.curriculo__titulo {
+    font-family: var(--fonte-primaria);
+    font-size: 30px;
+}
+
+.curriculo__texto {
+    font-family: var(--fonte-secundaria);
+    text-align: justify;
+    font-size: 18px;
+    padding: 0 0 0 12px;
+}
+
+.curriculo__lista {
+    padding: 0 0 0 50px;
+    font-family: var(--fonte-secundaria);
+
+}
+
+.curriculo__lista__titulo {
+    font-size: 24px;
+}
+
+.curriculo__lista__texto {
+    font-size: 17px;
+    padding: 15px 0 15px 15px;
+}
+
+.curriculo__lista__experiencia {
+    font-size: 17px;
+    padding: 0 0 0 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
