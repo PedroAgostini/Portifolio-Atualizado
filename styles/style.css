@@ -40,14 +40,14 @@ body {
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 25px;
+    font-size: 1.56rem;
     text-decoration: none;
     color: var(--cor-tercearia);
 }
 
 .cabecalho__menu__link__alternativo {
     font-family: var(--fonte-secundaria);
-    font-size: 25px;
+    font-size: 1.56rem;
     text-decoration: none;
     color: var(--cor-secundaria);
 }
@@ -59,7 +59,7 @@ body {
 
 .apresentacao__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 38px;
+    font-size: 2.375rem;
     font-weight: 500;
     text-align: center;
 }
@@ -73,7 +73,7 @@ body {
     padding: 3% 0 0 0;
     display: flex;
     justify-content: space-between;
-    gap: 45px;
+    gap: 8%;
     align-items: center;
 }
 
@@ -84,13 +84,13 @@ body {
 
 .apresentacao__conteudo__texto {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.8rem;
     text-align: justify;
 }
 
 .apresentacao__conteudo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 30px;
+    font-size: 1.875rem;
     text-align: justify;
 }
 
@@ -103,7 +103,7 @@ body {
 }
 
 .apresentacao__redes__link {
-    width: 212px;
+    width: 30%;
     height: 20px;
     display: flex;
     justify-content: center;
@@ -117,7 +117,7 @@ body {
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 18px;
+    font-size: 1.125rem;
     text-transform: uppercase;
 }
 
@@ -129,8 +129,7 @@ body {
 }
 
 .apresentacao__imagem {
-    width: 396px;
-    height: 390px;
+    width: 30%;
 }
 
 .rodape {
@@ -139,7 +138,7 @@ body {
     padding: 1.5%;
     text-align: center;
     font-family: var(--fonte-primaria);
-    font-size: 17px;
+    font-size: 1.06rem;
     font-weight: 300;
 }
 
@@ -148,7 +147,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 80px;
+    gap: 8%;
 }
 
 .about__conteudo {
@@ -158,20 +157,20 @@ body {
 }
 
 .about__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     padding-bottom: 25px ;
 }
 
 .about__conteudo__texto {
     font-family: var(--fonte-secundaria);
-    font-size: 21px;
+    font-size: 1.31rem;
     text-align: justify;
     padding-bottom: 20px;
 }
 
 .about__imagem{
-    width: 400px;
+    width: 40%;
 }
 
 .about__frase {
@@ -201,13 +200,13 @@ body {
 
 .curriculo__titulo {
     font-family: var(--fonte-primaria);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .curriculo__texto {
     font-family: var(--fonte-secundaria);
     text-align: justify;
-    font-size: 18px;
+    font-size: 1.5rem;
     padding: 0 0 0 12px;
 }
 
@@ -218,16 +217,16 @@ body {
 }
 
 .curriculo__lista__titulo {
-    font-size: 24px;
+    font-size: 2rem;
 }
 
 .curriculo__lista__texto {
-    font-size: 17px;
+    font-size: 1.5rem;
     padding: 15px 0 15px 15px;
 }
 
 .curriculo__lista__experiencia {
-    font-size: 17px;
+    font-size: 1.06rem;
     padding: 0 0 0 50px;
     display: flex;
     flex-direction: column;
@@ -243,7 +242,7 @@ body {
 
 .certificado__titulo{
     font-family: var(--fonte-primaria);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .box__conteudo__link {
@@ -288,20 +287,20 @@ body {
 }
 
 .box__conteudo__escrito__titulo {
-    font-size: 25px;
+    font-size: 1.56rem;
     font-family: var(--fonte-secundaria);
     text-transform: uppercase;
 }
 
 .box__conteudo__escrito__texto {
-    font-size: 25px;
+    font-size: 1.56rem;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     text-transform: uppercase;
 }
 
 .box__conteudo__escrito__data {
-    font-size: 15px;
+    font-size: 1rem;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     text-transform: uppercase;
