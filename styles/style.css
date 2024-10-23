@@ -246,6 +246,16 @@ body {
     font-size: 30px;
 }
 
+.box__conteudo__link {
+    text-decoration: none;
+    color: var(--cor-secundaria);
+}
+
+.box__conteudo__link:hover {
+    background-color: #272727;
+    border-radius: 25px;
+}
+
 .box__conteudo{
     height: 290px;
     background: rgba(255, 255, 255, 0.342);
@@ -253,7 +263,8 @@ body {
     -webkit-backdrop-filter: blur(10px);
     border-radius: 25px;
     display: flex;
-    justify-content: space-between;
+    justify-content:flex-start;
+    gap: 20px;
     align-items: center;
 }
 
@@ -269,21 +280,29 @@ body {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    padding: 0 25px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: left;
 }
 
 .box__conteudo__escrito__titulo {
     font-size: 25px;
     font-family: var(--fonte-secundaria);
+    text-transform: uppercase;
 }
 
 .box__conteudo__escrito__texto {
     font-size: 25px;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
+    text-transform: uppercase;
 }
 
 .box__conteudo__escrito__data {
     font-size: 15px;
     font-family: var(--fonte-secundaria);
     font-weight: 600;
+    text-transform: uppercase;
 }
