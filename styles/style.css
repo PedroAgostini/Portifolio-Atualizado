@@ -15,6 +15,7 @@
     padding: 0;
 }
 
+
 body {
     box-sizing: border-box;
     background-color: var(--cor-primaria);
@@ -42,14 +43,12 @@ body {
     font-family: var(--fonte-secundaria);
     font-size: 1.56rem;
     text-decoration: none;
-    color: var(--cor-tercearia);
+    color: var(--cor-secundaria);
 }
 
-.cabecalho__menu__link__alternativo {
-    font-family: var(--fonte-secundaria);
-    font-size: 1.56rem;
-    text-decoration: none;
-    color: var(--cor-secundaria);
+.cabecalho__menu__link.active {
+    color: var(--cor-tercearia);
+    text-decoration: underline;
 }
 
 .apresentacao {
@@ -125,7 +124,7 @@ body {
     width: 50px;
 }
 .apresentacao__redes__link:hover{
-    background-color: #272727;
+    background-color: var(--cor-tercearia);
 }
 
 .apresentacao__imagem {
